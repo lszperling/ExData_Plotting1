@@ -5,4 +5,6 @@ sub <- load_data()
 png(filename = "plot2.png",width = 480, height = 480)
 
 plot(sub$coso, sub$Global_active_power,  type = "l", main="", ylab="Global Active Power (kilowatts)", xlab="")
+
+#prints result into the file and closes it
 dev.off()
